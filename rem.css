@@ -1,0 +1,41 @@
+.card {
+    border: 3px solid black;
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 200px;
+    text-align: center;
+    font-size: small;
+    float: left;
+}
+
+.card img {
+    width: 100px;
+    height: 100px;
+}
+
+
+@media screen and (max-width: 800px) and (min-height: 400px) {
+    .card {
+        width: 150px;
+    }
+}
+
+
+@media screen and (max-width: 400px) and (min-height: 800px) {
+    .card {
+        width: 200px;
+        float: none;
+        clear: both;
+    }
+}
+
+.detail-button {
+    background-color: #007bff;
+    color: blue;
+    border: none;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    cursor: pointer;
+}
